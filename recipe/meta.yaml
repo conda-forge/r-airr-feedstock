@@ -23,13 +23,16 @@ build:
 requirements:
   build:
     - {{ posix }}zip               # [win]
+    - cross-r-base {{ r_base }}    # [build_platform != target_platform]
   host:
     - r-base
+    - r-jsonlite
     - r-readr
     - r-stringi
     - r-yaml
   run:
     - r-base
+    - r-jsonlite
     - r-readr
     - r-stringi
     - r-yaml
