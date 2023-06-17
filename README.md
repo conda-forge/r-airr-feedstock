@@ -1,11 +1,11 @@
-About r-airr
-============
+About r-airr-feedstock
+======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-airr-feedstock/blob/main/LICENSE.txt)
 
 Home: http://docs.airr-community.org
 
 Package license: CC-BY-4.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-airr-feedstock/blob/main/LICENSE.txt)
 
 Summary: Schema definitions and read, write and validation tools for data  formatted in accordance with the AIRR Data Representation schemas defined  by the AIRR Community <http://docs.airr-community.org>.
 
