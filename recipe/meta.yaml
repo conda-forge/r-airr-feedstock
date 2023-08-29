@@ -1,4 +1,4 @@
-{% set version = "1.4.1" %}
+{% set version = "1.5.0" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,11 +10,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/airr_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/airr/airr_{{ version }}.tar.gz
-  sha256: 804bb7b2bfcce73f41e82fdb34e527e87748c6ece8761aa6166897e3e1b728ff
+  sha256: 20883c5993abc08aba1c80aef70221673d1defa17b3b61aef6372f309e4f6a4c
 
 build:
   merge_build_host: true  # [win]
-  number: 3
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
