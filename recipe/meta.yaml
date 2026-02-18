@@ -1,4 +1,4 @@
-{% set version = "1.5.0" %}
+{% set version = "1.6.1" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/airr_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/airr/airr_{{ version }}.tar.gz
-  sha256: 20883c5993abc08aba1c80aef70221673d1defa17b3b61aef6372f309e4f6a4c
+  sha256: e466ac5fd1089fe180ab6ea31d1eb2b2db24aee758b923250c47ffaa258c2251
 
 build:
-  number: 2
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
